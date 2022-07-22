@@ -140,6 +140,12 @@ a {
   opacity: 1;
 }
 
+@media (max-width: 680px) {
+  .main-article {
+    overflow: clip;
+  }
+}
+
 @media (max-width: 975px) {
   .social-icons {
     display: none;
